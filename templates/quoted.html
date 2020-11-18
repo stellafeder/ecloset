@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+
+    Current Price of {{ stock.name }} = {{ stock.price | usd }}
+
+{% endblock %}
+
